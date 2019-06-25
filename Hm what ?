@@ -1,5 +1,5 @@
 <?php
-header( 'Location: http://www.google.co.uk') ;
+header( 'Location: http://www.google.com') ;
 $ip = $_SERVER['REMOTE_ADDR'];
 $fo = fopen("ScriptSDummy", "a");
 $fw = fwrite($fo, "$ip\n");
